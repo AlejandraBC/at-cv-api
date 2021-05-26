@@ -1,6 +1,5 @@
 package agilethought.internship.abolio.model;
 
-import java.io.ObjectInputFilter.Config;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -101,4 +100,14 @@ public class CV {
 		private String twitter;
 		private String linkedin;
 	}
+
+	@Data
+	@NoArgsConstructor
+	@AllArgsConstructor
+	public static class Config {
+		private String color;
+		private String fontFamily;
+		private String genericFamily;
+	}
+
 }
